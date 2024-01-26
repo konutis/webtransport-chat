@@ -1,0 +1,23 @@
+{
+  "name": "webtransport-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx watch backend/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@fails-components/webtransport": "^1.0.4",
+    "@fails-components/webtransport-transport-http3-quiche": "^1.0.4",
+    "mime": "^4.0.1",
+    "node-forge": "^1.3.1"
+  }
+}
